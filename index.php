@@ -14,7 +14,7 @@ var PozvonimcomWidgetConfig = {
 
      var xhttp = new XMLHttpRequest();
        xhttp.onreadystatechange = function() {
-         if (xhttp.readyState == 4 && xhttp.status == 200) {
+         if (xhttp.readyState === 4 && xhttp.status === 200) {
            console.log('success');
          }
        };
